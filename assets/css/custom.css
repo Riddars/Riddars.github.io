@@ -1,0 +1,16 @@
+/* Центрирование основного контента */
+.md-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Стиль боковой навигации */
+.md-sidebar .md-nav__link {
+  margin: 4px 0;
+  padding: 4px 8px;
+}
+
+.md-sidebar .md-nav__link--active {
+  color: var(--md-primary-fg-color);
+  font-weight: bold;
+}
