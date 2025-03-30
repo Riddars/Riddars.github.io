@@ -1,0 +1,32 @@
+site_name: Riddars Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - Datasets: datasets.md
+  - Data Format: data-format.md
+  - Data Visualization: data-visualization.md
+  - API: api.md
+  - Benchmarks: benchmarks.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
